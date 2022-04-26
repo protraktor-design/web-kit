@@ -1,0 +1,37 @@
+.palette-day {
+
+}
+
+.palette-light {
+    
+}
+
+:root, .palette-dark {
+
+    /* Tier +1 */
+
+    
+    /* Tier 0 */
+
+    --color-tier-0-content-neutral-primary: #E1E6E9;
+    --color-tier-0-content-neutral-secondary: ;
+    --color-tier-0-content-neutral-tertiary: ;
+
+    /* Tier -1 */
+
+    /* Tier -2 */
+
+    /* Tier -3 */
+}
+
+.palette-inverted-day {
+
+}
+
+.palette-night {
+
+}
+
+.palette-night-vision {
+
+}
