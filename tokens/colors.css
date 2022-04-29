@@ -9,19 +9,46 @@
 :root, .palette-dark {
 
     /* Tier +1 */
+    --color-tier-plus-1-background: ;
+    
 
     
     /* Tier 0 */
 
+    --color-tier-0-background: ;
+
     --color-tier-0-content-neutral-primary: #E1E6E9;
     --color-tier-0-content-neutral-secondary: ;
     --color-tier-0-content-neutral-tertiary: ;
+    --color-tier-0-content-selected-primary: ;
+    --color-tier-0-content-selected-secondary: ;
+    --color-tier-0-content-warning-primary: ;
+    --color-tier-0-content-warning-secondary: ;
+    --color-tier-0-content-critical-primary: ;
+    --color-tier-0-content-critical-secondary: ;
+    --color-tier-0-content-positive-primary: ;
+    --color-tier-0-content-positive-secondary: ;
+    --color-tier-0-divider-primary: ;
+    --color-tier-0-divider-secondary: ;
+    --color-tier-0-divider-darkest: ;
+    --color-tier-0-control-button-primary-normal-background: ;
+    --color-tier-0-control-button-primary-normal-icon: ;
+    --color-tier-0-control-button-primary-normal-label: ;
+    --color-tier-0-control-button-secondary-normal-background: ;
+    --color-tier-0-control-button-tertiary-normal-border: ;
+    --color-tier-0-control-button-primary-normal-background: ;
 
     /* Tier -1 */
 
+    --color-tier-minus-1-background: ;
+
     /* Tier -2 */
 
+    --color-tier-minus-2-background: ;
+
     /* Tier -3 */
+
+    --color-tier-minus-3-background: ;
 }
 
 .palette-inverted-day {
