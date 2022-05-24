@@ -1,3 +1,7 @@
-@import url(tokens/colors.css);
-@import url(tokens/typography.css);
-@import url(tokens/dimensions.css);
+@import url(foundation/tokens/colors.css);
+@import url(foundation/tokens/typography.css);
+@import url(foundation/tokens/dimensions.css);
+
+@import url(foundation/generic/body.css);
+
+@import url(foundation/layouts/panels.css);

@@ -1,0 +1,9 @@
+body {
+    background-color: var(--color-tier-0-background);
+    font-family: var(--font-default);
+    color: var(--color-tier-0-content-neutral-primary);
+    font-size: var(--size-base-text);
+
+    margin: 0;
+    padding: 0;
+}

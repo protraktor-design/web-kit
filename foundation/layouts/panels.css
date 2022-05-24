@@ -1,0 +1,19 @@
+.bg-tier-0 {
+    background-color: var(--color-tier-0-background);
+}
+
+.bg-tier-plus-1 {
+    background-color: var(--color-tier-plus-1-background);
+}
+
+.bg-tier-minus-1 {
+    background-color: var(--color-tier-minus-1-background);
+}
+
+.bg-tier-minus-2 {
+    background-color: var(--color-tier-minus-2-background);
+}
+
+.bg-tier-minus-3 {
+    background-color: var(--color-tier-minus-3-background);
+}

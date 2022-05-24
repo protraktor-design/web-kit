@@ -1,0 +1,16 @@
+:root, .medium-scale{
+    --size-base-text: 14px;
+}
+
+.small-scale{
+    --size-base-text: 12px;
+}
+
+.large-scale{
+    --size-base-text: 16px;
+}
+
+.x-large-scale{
+    --size-base-text: 18px;
+}
+

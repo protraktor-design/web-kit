@@ -1,0 +1,288 @@
+.day-palette {
+    /* Tier +1 */
+
+    --color-tier-plus-1-background: #FFFFFF;
+    --color-tier-plus-1-content-neutral-primary: #000000;
+    --color-tier-plus-1-content-neutral-secondary: #56626A;
+    --color-tier-plus-1-content-neutral-tertiary: ;
+
+    
+    /* Tier 0 */
+
+    --color-tier-0-background: #FFFFFF;
+    --color-tier-0-content-neutral-primary: #000000;
+    --color-tier-0-content-neutral-secondary: #56626A;
+    --color-tier-0-content-neutral-tertiary: ;
+    --color-tier-0-content-selected-primary: ;
+    --color-tier-0-content-selected-secondary: ;
+    --color-tier-0-content-warning-primary: ;
+    --color-tier-0-content-warning-secondary: ;
+    --color-tier-0-content-critical-primary: ;
+    --color-tier-0-content-critical-secondary: ;
+    --color-tier-0-content-positive-primary: ;
+    --color-tier-0-content-positive-secondary: ;
+    --color-tier-0-divider-primary: ;
+    --color-tier-0-divider-secondary: ;
+    --color-tier-0-divider-darkest: ;
+    --color-tier-0-control-button-primary-normal-background: ;
+    --color-tier-0-control-button-primary-normal-icon: ;
+    --color-tier-0-control-button-primary-normal-label: ;
+    --color-tier-0-control-button-secondary-normal-background: ;
+    --color-tier-0-control-button-tertiary-normal-border: ;
+    --color-tier-0-control-button-primary-normal-background: ;
+
+    /* Tier -1 */
+
+    --color-tier-minus-1-background: #E3E8EB;
+    --color-tier-minus-1-content-neutral-primary: #000000;
+    --color-tier-minus-1-content-neutral-secondary: #515D65;
+    --color-tier-minus-1-content-neutral-tertiary: ;
+
+
+    /* Tier -2 */
+
+    --color-tier-minus-2-background: #D4DBE0;
+    --color-tier-minus-2-content-neutral-primary: #000000;
+    --color-tier-minus-2-content-neutral-secondary: #4C575E;
+    --color-tier-minus-2-content-neutral-tertiary: ;
+
+
+    /* Tier -3 */
+
+    --color-tier-minus-3-background: #C5CFD5;
+    --color-tier-minus-3-content-neutral-primary: #000000;
+    --color-tier-minus-3-content-neutral-secondary: #485259;
+    --color-tier-minus-3-content-neutral-tertiary: ;
+}
+
+.light-palette {
+
+    /* Tier +1 */
+
+    --color-tier-plus-1-background: #FFFFFF;
+    --color-tier-plus-1-content-neutral-primary: #373E43;
+    --color-tier-plus-1-content-neutral-secondary: #89969F;
+    --color-tier-plus-1-content-neutral-tertiary: #ABB4BA;
+
+    
+    /* Tier 0 */
+
+    --color-tier-0-background: #F8FBFD;
+    --color-tier-0-content-neutral-primary: #343A3F;
+    --color-tier-0-content-neutral-secondary: #85939C;
+    --color-tier-0-content-neutral-tertiary: #A8B2B8;
+
+
+    /* Tier -1 */
+
+    --color-tier-minus-1-background: #F3F8FA;
+    --color-tier-minus-1-content-neutral-primary: #30363B;
+    --color-tier-minus-1-content-neutral-secondary: #808F98;
+    --color-tier-minus-1-content-neutral-tertiary: #A6AFB5;
+
+
+    /* Tier -2 */
+
+    --color-tier-minus-2-background: #EDF4F7;
+    --color-tier-minus-2-content-neutral-primary: #2E3338;
+    --color-tier-minus-2-content-neutral-secondary: #7D8C96;
+    --color-tier-minus-2-content-neutral-tertiary: #A4AEB4;
+
+
+    /* Tier -3 */
+
+    --color-tier-minus-3-background: #E5EEF1;
+    --color-tier-minus-3-content-neutral-primary: #2C3135;
+    --color-tier-minus-3-content-neutral-secondary: #788992;
+    --color-tier-minus-3-content-neutral-tertiary: #A0AAB1;
+    
+}
+
+:root, .dark-palette {
+
+    /* Tier +1 */
+
+    --color-tier-plus-1-background: #31393E;
+    --color-tier-plus-1-content-neutral-primary: #EAEEF0;
+    --color-tier-plus-1-content-neutral-secondary: #95A6B2;
+    --color-tier-plus-1-content-neutral-tertiary: #687C88;
+
+    
+    /* Tier 0 */
+
+    --color-tier-0-background: #3D474D;
+
+    --color-tier-0-content-neutral-primary: #E1E6E9;
+    --color-tier-0-content-neutral-secondary: #90A2AE;
+    --color-tier-0-content-neutral-tertiary: #637682;
+    --color-tier-0-content-selected-primary: ;
+    --color-tier-0-content-selected-secondary: ;
+    --color-tier-0-content-warning-primary: ;
+    --color-tier-0-content-warning-secondary: ;
+    --color-tier-0-content-critical-primary: ;
+    --color-tier-0-content-critical-secondary: ;
+    --color-tier-0-content-positive-primary: ;
+    --color-tier-0-content-positive-secondary: ;
+    --color-tier-0-divider-primary: ;
+    --color-tier-0-divider-secondary: ;
+    --color-tier-0-divider-darkest: ;
+    --color-tier-0-control-button-primary-normal-background: ;
+    --color-tier-0-control-button-primary-normal-icon: ;
+    --color-tier-0-control-button-primary-normal-label: ;
+    --color-tier-0-control-button-secondary-normal-background: ;
+    --color-tier-0-control-button-tertiary-normal-border: ;
+    --color-tier-0-control-button-primary-normal-background: ;
+
+
+    /* Tier -1 */
+
+    --color-tier-minus-1-background: #252A2E;
+    --color-tier-minus-1-content-neutral-primary: #DCE2E5;
+    --color-tier-minus-1-content-neutral-secondary: #899CA9;
+    --color-tier-minus-1-content-neutral-tertiary: #5F717C;
+
+
+    /* Tier -2 */
+
+    --color-tier-minus-2-background: #1F2326;
+    --color-tier-minus-2-content-neutral-primary: #D6DDE1;
+    --color-tier-minus-2-content-neutral-secondary: #8397A5;
+    --color-tier-minus-2-content-neutral-tertiary: #5A6C77;
+
+
+    /* Tier -3 */
+
+    --color-tier-minus-3-background: #191C1F;
+    --color-tier-minus-3-content-neutral-primary: #D0D8DC;
+    --color-tier-minus-3-content-neutral-secondary: #7D92A0;
+    --color-tier-minus-3-content-neutral-tertiary: #566671;    
+    
+}
+
+.inverted-day-palette {
+
+    /* Tier +1 */
+
+    --color-tier-plus-1-background: #272D30;
+    --color-tier-plus-1-content-neutral-primary: #FFFFFF;
+    --color-tier-plus-1-content-neutral-secondary: #A9B8C2;
+    --color-tier-plus-1-content-neutral-tertiary: ;
+
+    
+    /* Tier 0 */
+
+    --color-tier-0-background: #212527;
+    --color-tier-0-content-neutral-primary: #FFFFFF;
+    --color-tier-0-content-neutral-secondary: #A9B8C2;
+    --color-tier-0-content-neutral-tertiary: ;
+
+
+    /* Tier -1 */
+
+    --color-tier-minus-1-background: #191D1F;
+    --color-tier-minus-1-content-neutral-primary: #FFFFFF;
+    --color-tier-minus-1-content-neutral-secondary: #A2B1BA;
+    --color-tier-minus-1-content-neutral-tertiary: ;
+
+
+    /* Tier -2 */
+
+    --color-tier-minus-2-background: #131618;
+    --color-tier-minus-2-content-neutral-primary: #FFFFFF;
+    --color-tier-minus-2-content-neutral-secondary: #9EACB5;
+    --color-tier-minus-2-content-neutral-tertiary: ;
+
+
+    /* Tier -3 */
+
+    --color-tier-minus-3-background: #050505;
+    --color-tier-minus-3-content-neutral-primary: #FFFFFF;
+    --color-tier-minus-3-content-neutral-secondary: #99A7B0;
+    --color-tier-minus-3-content-neutral-tertiary: ;    
+}
+
+.night-palette {
+
+    /* Tier +1 */
+
+    --color-tier-plus-1-background: #101314;
+    --color-tier-plus-1-content-neutral-primary: #637178;
+    --color-tier-plus-1-content-neutral-secondary: #49545A;
+    --color-tier-plus-1-content-neutral-tertiary: ;
+
+    
+    /* Tier 0 */
+
+    --color-tier-0-background: #0D1011;
+    --color-tier-0-content-neutral-primary: #606E75;
+    --color-tier-0-content-neutral-secondary: #465156;
+    --color-tier-0-content-neutral-tertiary: ;
+
+
+    /* Tier -1 */
+
+    --color-tier-minus-1-background: #0A0C0D;
+    --color-tier-minus-1-content-neutral-primary: #5E6C73;
+    --color-tier-minus-1-content-neutral-secondary: #454F54;
+    --color-tier-minus-1-content-neutral-tertiary: ;
+
+
+    /* Tier -2 */
+
+    --color-tier-minus-2-background: #070809;
+    --color-tier-minus-2-content-neutral-primary: #5C6970;
+    --color-tier-minus-2-content-neutral-secondary: #424D52;
+    --color-tier-minus-2-content-neutral-tertiary: ;
+
+
+    /* Tier -3 */
+
+    --color-tier-minus-3-background: #050505;
+    --color-tier-minus-3-content-neutral-primary: #5A676D;
+    --color-tier-minus-3-content-neutral-secondary: #404A4F;
+    --color-tier-minus-3-content-neutral-tertiary: ;    
+
+}
+
+.night-vision-palette {
+
+    /* Tier +1 */
+
+    --color-tier-plus-1-background: #370101;
+    --color-tier-plus-1-content-neutral-primary: #E30000;
+    --color-tier-plus-1-content-neutral-secondary: #8A0000;
+    --color-tier-plus-1-content-neutral-tertiary: ;
+
+    
+    /* Tier 0 */
+
+    --color-tier-0-background: #2D0000;
+    --color-tier-0-content-neutral-primary: #E30000;
+    --color-tier-0-content-neutral-secondary: #8A0000;
+    --color-tier-0-content-neutral-tertiary: ;
+
+
+    /* Tier -1 */
+
+    --color-tier-minus-1-background: #260000;
+    --color-tier-minus-1-content-neutral-primary: #E30000;
+    --color-tier-minus-1-content-neutral-secondary: #8A0000;
+    --color-tier-minus-1-content-neutral-tertiary: ;
+
+
+    /* Tier -2 */
+
+    --color-tier-minus-2-background: #1F0000;
+    --color-tier-minus-2-content-neutral-primary: #D60000;
+    --color-tier-minus-2-content-neutral-secondary: #800000;
+    --color-tier-minus-2-content-neutral-tertiary: ;
+
+
+    /* Tier -3 */
+
+    --color-tier-minus-3-background: #140000;
+    --color-tier-minus-3-content-neutral-primary: #CC0000;
+    --color-tier-minus-3-content-neutral-secondary: #750000;
+    --color-tier-minus-3-content-neutral-tertiary: ;    
+
+}
