@@ -1,0 +1,20 @@
+.appbar{
+    height: var(--size-app-bar-medium);
+    background-color: var(--color-tier-minus-3-background);
+    color: var(--color-tier-minus-3-content-neutral-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-tier-0-divider-primary);
+}
+
+.appbar nav{
+    display: flex;
+}
+
+.appbar .system-id{
+    font-size: var(--size-text-system-id);
+    font-weight: var(--font-weight-emphasized);
+    line-height: var(--size-app-bar-medium);
+    padding: 0 16px;
+}

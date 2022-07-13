@@ -1,5 +1,7 @@
 :root, .medium-scale{
-    --size-base-text: 14px;
+    --size-app-bar-medium: 48px;
+    --size-corner-radius-control: 3px;
+    --size-input-height: 30px;
 }
 
 .small-scale{

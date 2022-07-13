@@ -1,0 +1,47 @@
+/* Secondary button as default control */
+
+button, button.secondary, button.tier-0{
+    background: var(--color-tier-0-control-button-secondary-normal-background);
+    color: var(--color-tier-0-content-neutral-primary);
+    font-size: var(--size-text-base);
+    font-family: var(--font-default);
+    border-radius: var(--size-corner-radius-control);
+    border: none;
+    height: var(--size-input-height);
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+button:hover{
+    background: var(--color-tier-0-control-button-secondary-hovered-background);
+}
+
+button:focus{
+    border: 1px solid var(--color-tier-0-control-focus-normal);
+    outline: none;
+    padding: 0 19px;
+}
+
+button:hover:focus{
+    border: 1px solid var(--color-tier-0-control-focus-hovered);
+
+}
+
+button:active, button:active:focus{
+    background: var(--color-tier-0-control-button-secondary-pressed-background);
+    border: none;
+    padding: 0 20px;
+}
+
+button:disabled{
+    background: var(--color-tier-0-control-button-secondary-disabled-background);
+    color: var(--color-tier-0-control-button-secondary-disabled-label);
+
+}
+
+/* Primary button */
+
+button.primary{
+    background: var();
+    color: var();
+}

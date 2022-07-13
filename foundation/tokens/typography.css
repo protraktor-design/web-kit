@@ -1,4 +1,9 @@
 :root {
     --font-default: "IBM Plex Sans";
     --font-monospace: "IBM Plex Mono";
+
+    --size-text-base: 14px;
+    --size-text-system-id: 18px;
+    
+    --font-weight-emphasized: 600;
 }
