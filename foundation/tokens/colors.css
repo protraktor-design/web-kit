@@ -140,17 +140,26 @@
 
     --color-tier-0-control-button-primary-normal-background: #397192;
     --color-tier-0-control-button-primary-normal-icon: #9BC3DA;
-    --color-tier-0-control-button-primary-normal-label: #9BC3DA;
+    --color-tier-0-control-button-primary-normal-label: #CEEDFF;
+    --color-tier-0-control-button-primary-hovered-background: #3B7496;
+    --color-tier-0-control-button-primary-pressed-background: #122734;
+    --color-tier-0-control-button-primary-disabled-background: #2F414D;
+    --color-tier-0-control-button-primary-disabled-icon: #3E5868;
+    --color-tier-0-control-button-primary-disabled-label: #4B6677;
+
     --color-tier-0-control-button-secondary-normal-background: #3D474D;
     --color-tier-0-control-button-secondary-hovered-background: #414C53;
     --color-tier-0-control-button-secondary-pressed-background: #1A1D20;
     --color-tier-0-control-button-secondary-disabled-background: #343B42;
     --color-tier-0-control-button-secondary-disabled-icon: #4D575E;
     --color-tier-0-control-button-secondary-disabled-label: #5D6970;
+
     --color-tier-0-control-button-tertiary-normal-border: #4C565C;
 
-    --color-tier-0-control-focus-normal: #386A84;
-    --color-tier-0-control-focus-hovered: #3A7492;
+    --color-tier-0-control-focus-primary-normal: #47A2D2;
+    --color-tier-0-control-focus-primary-hovered: #56AAD6;
+    --color-tier-0-control-focus-secondary-normal: #386A84;
+    --color-tier-0-control-focus-secondary-hovered: #3A7492;
 
 
     /* Tier -1 */

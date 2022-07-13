@@ -10,6 +10,7 @@ button, button.secondary, button.tier-0{
     height: var(--size-input-height);
     padding: 0 20px;
     box-sizing: border-box;
+    user-select: none;
 }
 
 button:hover{
@@ -17,13 +18,13 @@ button:hover{
 }
 
 button:focus{
-    border: 1px solid var(--color-tier-0-control-focus-normal);
+    border: 1px solid var(--color-tier-0-control-focus-secondary-normal);
     outline: none;
     padding: 0 19px;
 }
 
 button:hover:focus{
-    border: 1px solid var(--color-tier-0-control-focus-hovered);
+    border: 1px solid var(--color-tier-0-control-focus-secondary-hovered);
 
 }
 
@@ -36,12 +37,37 @@ button:active, button:active:focus{
 button:disabled{
     background: var(--color-tier-0-control-button-secondary-disabled-background);
     color: var(--color-tier-0-control-button-secondary-disabled-label);
-
 }
 
 /* Primary button */
 
 button.primary{
-    background: var();
-    color: var();
+    background: var(--color-tier-0-control-button-primary-normal-background);
+    color: var(--color-tier-0-control-button-primary-normal-label);
+}
+
+button.primary:hover{
+    background: var(--color-tier-0-control-button-primary-hovered-background);
+}
+
+button.primary:focus{
+    border: 1px solid var(--color-tier-0-control-focus-primary-normal);
+    outline: none;
+    padding: 0 19px;
+}
+
+button.primary:hover:focus{
+    border: 1px solid var(--color-tier-0-control-focus-primary-hovered);
+
+}
+
+button.primary:active, button.primary:active:focus{
+    background: var(--color-tier-0-control-button-primary-pressed-background);
+    border: none;
+    padding: 0 20px;
+}
+
+button.primary:disabled{
+    background: var(--color-tier-0-control-button-primary-disabled-background);
+    color: var(--color-tier-0-control-button-primary-disabled-label);
 }
