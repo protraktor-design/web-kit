@@ -71,3 +71,12 @@ button.primary:disabled{
     background: var(--color-tier-0-control-button-primary-disabled-background);
     color: var(--color-tier-0-control-button-primary-disabled-label);
 }
+
+
+/* Tertiary button */
+
+button.tertiary{
+    background: none;
+    border: 2px solid var(--color-tier-0-control-button-tertiary-normal-border);
+    padding: 0 18px;
+}
